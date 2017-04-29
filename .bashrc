@@ -109,6 +109,9 @@ fi
 
 alias mail='mail -q'
 
+# Path stuffs
+export PATH=/usr/bin/anaconda3/bin:$PATH
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
