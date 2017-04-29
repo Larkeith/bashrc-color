@@ -110,7 +110,7 @@ fi
 alias mail='mail -q'
 
 # Path stuffs
-export PATH=/usr/bin/anaconda3/bin:$PATH
+export PATH="$PATH:/usr/local/bin/anaconda3:/usr/local/bin/anaconda3/bin"
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -122,3 +122,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
