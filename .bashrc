@@ -108,6 +108,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 alias mail='mail -q'
+alias fuck='sudo $(history -p !!)'
 
 # Path stuffs
 export PATH="$PATH:/usr/local/bin/anaconda3:/usr/local/bin/anaconda3/bin"
