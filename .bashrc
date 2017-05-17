@@ -113,6 +113,9 @@ alias fuck='sudo $(history -p !!)'
 # Path stuffs
 export PATH="$PATH:/usr/local/bin/anaconda3:/usr/local/bin/anaconda3/bin"
 
+# Use vi-style editing mode
+set -o vi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
